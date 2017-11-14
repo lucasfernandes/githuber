@@ -45,6 +45,9 @@ const styles = StyleSheet.create({
     color: colors.white,
     fontWeight: 'bold',
   },
+  error: {
+    color: colors.error,
+  },
 });
 
 export default styles;
