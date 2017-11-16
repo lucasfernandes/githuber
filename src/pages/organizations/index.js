@@ -1,10 +1,9 @@
 /* Core */
 import React, { Component } from 'react';
 import api from 'services/api';
-import PropTypes from 'prop-types';
 
 /* Presentational */
-import { View, ScrollView, Text, AsyncStorage, ActivityIndicator } from 'react-native';
+import { ScrollView, Text, AsyncStorage, ActivityIndicator } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import Organization from './components/Organization';

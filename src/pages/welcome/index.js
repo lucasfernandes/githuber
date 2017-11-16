@@ -73,6 +73,7 @@ export default class Welcome extends Component {
           autoCorrect={false}
           style={styles.input}
           placeholder="Digite seu usuário"
+          underlineColorAndroid="rgba(0, 0, 0, 0)"
           onChangeText={username => this.setState({ username })}
         />
 

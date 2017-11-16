@@ -8,4 +8,5 @@ export default {
   primary: '#444A5A',
   secundary: '#7A91CA',
   background: '#FBFAFF',
+  transparent: 'rgba(0,0,0,0)',
 };

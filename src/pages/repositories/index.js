@@ -45,10 +45,6 @@ export default class Repositories extends Component {
   };
 
   renderRepositories = () => (
-    // this.state.repositories.map(repository => (
-    //   <Repository key={repository.id} repository={repository} />
-    // ))
-
     <FlatList
       refreshControl={
         <RefreshControl
